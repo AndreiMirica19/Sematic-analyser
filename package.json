@@ -1,0 +1,12 @@
+{
+  "name": "devoir-0-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Student Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "typescript": "^4.1.5"
+  }
+}

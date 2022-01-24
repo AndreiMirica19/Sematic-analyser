@@ -1,11 +1,14 @@
-# Sematic-analyser
-The objective of the assignment is to create the symbol table and write the semantic analysis for the Alf language.
+# ALF Devoir 4 - Semantic
 
-You will receive as input a file that contains an AST that correctly parses a source language. What you need to do is generate:
+## Description
 
-the table of symbols
-a new AST with the following modifications
-the new AST is a list of statements
-all AST nodes have a new property called symbol, which refers to the symbol array entry where they declare variables, functions and types
-the main program is called “Statements”
-a list of errors
+Le descriptif des devoirs est disponible sur le site de ALF [Devoir 4](https://ocw.cs.pub.ro/courses/alf/teme/tema4)
+
+
+## Solution
+
+TODO Décrivez ici comment avez-vous résolu les devoirs, quels types de données avez-vous utilisés et pourquoi. 
+
+### Structures de données 
+
+### Implémentation 
