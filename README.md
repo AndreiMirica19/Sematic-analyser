@@ -1,14 +1,27 @@
-# ALF Devoir 4 - Semantic
+The program receive as input a file that contains an AST that correctly parses a source language. It generates:
 
-## Description
+the table of symbols
+a new AST with the following changes
+the new AST is a list of statements
+all AST nodes have a new property called symbol, which refers to the symbol array entry where they declare variables, functions and types
+the main program is called “Statements”
+a list of errors
 
-Le descriptif des devoirs est disponible sur le site de ALF [Devoir 4](https://ocw.cs.pub.ro/courses/alf/teme/tema4)
+
+The program will receive two parameters from the command line:
+
+source file
+the output file
+
+The output file format is as follows
+
+{
+     symbol_table: [...], // the symbol table
+     
+     ast: [...], // the new AST
+     
+     error_list: [] // the list of errors
+}
 
 
-## Solution
 
-TODO Décrivez ici comment avez-vous résolu les devoirs, quels types de données avez-vous utilisés et pourquoi. 
-
-### Structures de données 
-
-### Implémentation 
